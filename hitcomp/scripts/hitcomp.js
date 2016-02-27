@@ -14,7 +14,7 @@
                 glossaryTableElem);
             
             if (glossaryTableRowElem.length > 0) {
-                dataTableHeaderElem.attr("data-placement", "top").attr("data-toggle", "tooltip").tooltip({
+                dataTableHeaderElem.attr("data-placement", "bottom").attr("data-toggle", "tooltip").tooltip({
                     "title": $.trim($("td:last span.content-text", glossaryTableRowElem).html())
                 });
             }
